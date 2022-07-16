@@ -13,7 +13,7 @@ def GetProxy():
         splitted = proxy.split(":")
         return f"http://{splitted[2]}:{splitted[3]}@{splitted[0]}:{splitted[1]}"
     else:
-        return proxy
+        return f'http://{proxy}'
 
 def register():
     while True:
