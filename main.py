@@ -27,7 +27,7 @@ def register():
                 Hmac=RegisterReq.cookies["hmac_signed_session"]
                 print(f"{Fore.GREEN}Created Account: {Hmac}:{Email}:{Username}{Fore.RESET}")
                 with open("Accounts.txt", "a+") as tk:
-                    tk.write(f"{Email}:qpwo12!0-94-23_#$_#$@:{Hmac}\n")
+                    tk.write(f"{Email}:github.com/clipssender:{Hmac}\n")
             else:
                 print(RegisterReq.json())
                 register()
