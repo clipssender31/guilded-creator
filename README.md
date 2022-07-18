@@ -1,5 +1,5 @@
 # guilded-creator
-simple account creator for guilded I made during class
+simple account creator for guilded
 
 # Requirements
 1. **Buy cheap 3$ proxies from https://www.webshare.io/?referral_code=vfoze0j60n05 (use my referral for a discount)**
